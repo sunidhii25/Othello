@@ -1,0 +1,44 @@
+#board{
+    background-color: green;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    display:grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(8, 1fr); 
+    border: 4px solid;
+}
+#result{
+    font-size:30px;
+    font-weight: bold;
+    margin-left:40%;
+}
+#whiteCircle{
+    height:40px;
+    width:40px;
+    box-shadow: 0px 0px 5px 2px black;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+#blackCircle{
+    height:40px;
+    width:40px;
+    box-shadow: 0px 0px 3px 2px white;
+    background-color: black;
+    border-radius: 50%;
+}
+#emptyBox{
+    height:40px;
+    width:40px;
+    box-shadow: 0px 0px 3px 2px violet;
+    background-color: transparent;
+    border-radius: 50%;
+}
+.boxes{
+    border:2px solid black;
+    padding-left: 70px;
+    padding-right: 59px;
+    padding-top: 19px;
+    padding-bottom: 18.5px;
+}
